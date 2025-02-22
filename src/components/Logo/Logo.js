@@ -12,7 +12,7 @@ function Logo({
     ...otherStyles,
   };
   return (
-    <div className={`hero-logo ${className}`} style={styles}>
+    <div className={`logo ${className}`} style={styles}>
       <a href="#">
         <img
           src={

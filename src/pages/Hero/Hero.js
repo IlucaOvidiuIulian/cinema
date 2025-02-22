@@ -1,11 +1,11 @@
 import Logo from "../../components/Logo/Logo";
 import NavLinks from "../../components/NavLinks/NavLinks";
+import SocialLinks from "../../components/SocialLinks/SocialLinks";
 import "./Hero.css";
 
 export default function Hero() {
   return (
     <div className="hero-container">
-      {/* Hero Sections */}
       <div className="hero">
         <div className="section left">
           <div className="overlay"></div>
@@ -30,55 +30,7 @@ export default function Hero() {
           height: "25rem",
         }}
       />
-
-      {/* Social Media Links */}
-      <div className="social-links">
-        <a
-          href="https://facebook.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-          aria-label="Facebook"
-        >
-          <i className="fab fa-facebook-f"></i>
-        </a>
-        <a
-          href="https://tiktok.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-          aria-label="TikTok"
-        >
-          <i className="fab fa-tiktok"></i>
-        </a>
-        <a
-          href="https://youtube.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-          aria-label="YouTube"
-        >
-          <i className="fab fa-youtube"></i>
-        </a>
-        <a
-          href="https://twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-          aria-label="Twitter"
-        >
-          <i className="fab fa-twitter"></i>
-        </a>
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-          aria-label="Instagram"
-        >
-          <i className="fab fa-instagram"></i>
-        </a>
-      </div>
+      <SocialLinks />
 
       <NavLinks
         otherStyles={{

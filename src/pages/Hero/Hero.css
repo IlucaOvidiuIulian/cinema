@@ -74,25 +74,3 @@
 .section.right a {
   left: 35%;
 }
-
-.social-links {
-  position: absolute;
-  top: 2.6%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 7rem;
-  z-index: 10;
-  /* align-items: space-between; */
-}
-
-.icon {
-  font-size: 2.5rem;
-  color: #eddda4;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.icon:hover {
-  color: #f1f1f1;
-  transform: scale(1.3);
-}
