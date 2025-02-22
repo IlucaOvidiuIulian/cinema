@@ -1,0 +1,19 @@
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  z-index: 10;
+}
+
+.nav-link {
+  font-size: 1.7rem;
+  /* font-weight: bold; */
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #eddda4;
+  transform: scale(1.1);
+}

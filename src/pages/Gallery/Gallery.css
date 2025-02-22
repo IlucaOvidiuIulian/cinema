@@ -1,0 +1,16 @@
+.gallery {
+  padding: 5rem 0;
+  margin: auto 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.gallery > p {
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  color: var(--golden);
+  font-size: 5rem;
+}

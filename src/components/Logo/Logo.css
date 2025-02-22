@@ -1,0 +1,14 @@
+.hero-logo {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  overflow: hidden;
+  justify-self: center;
+}
+
+.hero-logo img {
+  object-fit: contain;
+  border-radius: 50%;
+}

@@ -1,3 +1,5 @@
+import Logo from "../../components/Logo/Logo";
+import NavLinks from "../../components/NavLinks/NavLinks";
 import "./Hero.css";
 
 export default function Hero() {
@@ -17,18 +19,20 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Centered Logo */}
-      <div className="hero-logo">
-        <a href="#">
-          <img
-            src="/img/man-looking-into-the-distance-on-top-of-the-mountain-free-image.webp"
-            alt="Logo"
-          />
-        </a>
-      </div>
+      <Logo
+        otherStyles={{
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          border: "2rem solid #272727",
+          width: "25rem",
+          height: "25rem",
+        }}
+      />
 
       {/* Social Media Links */}
-      <div className="social-icons">
+      <div className="social-links">
         <a
           href="https://facebook.com"
           target="_blank"
@@ -76,21 +80,16 @@ export default function Hero() {
         </a>
       </div>
 
-      {/* Bottom Links */}
-      <div className="bottom-links">
-        <a href="#galerie" className="bottom-link">
-          Galerie
-        </a>
-        <a href="#servicii" className="bottom-link">
-          Servicii
-        </a>
-        <a href="#despre-noi" className="bottom-link">
-          Despre Noi
-        </a>
-        <a href="#contacteaza-ne" className="bottom-link">
-          Contactează-ne
-        </a>
-      </div>
+      <NavLinks
+        otherStyles={{
+          position: "absolute",
+          bottom: "2%",
+          left: "50%",
+          transform: "translateX(-50%)",
+          gap: "4rem",
+          zIndex: "10",
+        }}
+      />
     </div>
   );
 }
