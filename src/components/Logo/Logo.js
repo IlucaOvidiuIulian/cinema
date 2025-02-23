@@ -1,10 +1,10 @@
 import "./Logo.css";
 function Logo({
-  width = "25rem",
-  height = "25rem",
+  width = "20rem",
+  height = "20rem",
   otherStyles = {},
   imgSource,
-  className,
+  className = "",
 }) {
   const styles = {
     width: width,

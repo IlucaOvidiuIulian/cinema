@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer/Footer";
 import ImagesList from "../../components/ImagesList/ImagesList";
 import Logo from "../../components/Logo/Logo";
 import NavLinks from "../../components/NavLinks/NavLinks";
@@ -6,11 +7,11 @@ import FilmCameraIcon from "../../components/svgs/FilmCameraIcon";
 import "./Gallery.css";
 function Gallery() {
   return (
-    <div className="gallery">
-      <Logo width="20rem" height="20rem" />
+    <div className="page" style={{ gap: "4rem" }}>
+      <Logo />
       <NavLinks />
       <h1>GALLERY</h1>
-      <div className="sorters">
+      <div className="filters">
         <div>
           <p>Nunți</p>
           <p>Arhitecturale</p>
@@ -32,6 +33,7 @@ function Gallery() {
         </div>
       </div>
       <ImagesList />
+      <Footer />
     </div>
   );
 }

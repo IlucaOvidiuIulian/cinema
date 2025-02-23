@@ -1,55 +1,41 @@
-.gallery {
-  padding: 5rem 2rem;
-  margin: 5rem 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-}
-
-.gallery > h1 {
-  text-transform: uppercase;
-  letter-spacing: 1.5rem;
-  color: var(--golden);
-  font-weight: 100;
-  font-size: 5rem;
-}
-.sorters {
+.filters {
   width: 100%;
   text-transform: uppercase;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
   flex-direction: column;
 }
-.sorters > div {
+.filters > div {
   display: flex;
-  gap: 9rem;
+  gap: 15rem;
 }
-.sorters p {
-  color: #8d8c8c;
-  font-size: 2rem;
+.filters p {
+  color: var(--neutral-300);
+  font-size: 3rem;
+  font-weight: 100;
 }
 
-.sorters p:hover {
-  color: #fff;
+.filters p:hover {
   cursor: pointer;
+  color: var(--neutral-100);
+
   transform: scale(1.2);
-  transition: all ease 0.3s;
+  transition: transform ease 0.3s;
 }
 
 .sort-button {
   border-radius: 50%;
-  background-color: #fff;
+  background-color: var(--neutral-200);
   width: 4.5rem;
   height: 4.5rem;
   padding: 0.8rem;
   transition: all 0.3s ease;
 }
 .sort-button:hover {
+  background-color: var(--neutral-100);
+
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }

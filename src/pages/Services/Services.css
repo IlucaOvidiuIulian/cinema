@@ -1,0 +1,26 @@
+.servicii span {
+  color: var(--neutral-100);
+}
+.servicii p {
+  margin-bottom: 2rem;
+}
+.servicii p:nth-of-type(4) span {
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  color: var(--neutral-300);
+}
+.service-description {
+  max-width: 100rem;
+  text-align: justify;
+}
+
+.servicii button {
+  font-size: 2.5rem;
+  padding: 0.5rem 2rem;
+  background-color: var(--accent-gold);
+  font-weight: 100;
+  cursor: pointer;
+}
+.servicii button:active {
+  transform: translateY(0.1rem);
+}

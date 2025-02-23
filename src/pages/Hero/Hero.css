@@ -6,7 +6,7 @@
   height: 100vh;
   width: 100%;
   position: relative;
-  background: #272727;
+  background: var(--neutral-900);
 }
 
 .hero {
@@ -61,7 +61,6 @@
   position: absolute;
   z-index: 3;
   text-decoration: none;
-  color: white;
   font-size: 5rem;
   text-align: center;
   top: 50%;

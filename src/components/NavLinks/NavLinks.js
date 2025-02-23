@@ -13,7 +13,7 @@ function NavLinks({ otherStyles }) {
         Despre Noi
       </a>
       <a href="#contacteaza-ne" className="nav-link">
-        Contactează-mă
+        Contact
       </a>
     </div>
   );

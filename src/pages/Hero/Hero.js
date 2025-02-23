@@ -10,12 +10,18 @@ export default function Hero() {
         <div className="section left">
           <div className="overlay"></div>
           <a href="#photo">Photo</a>
-          <img src="https://t3.ftcdn.net/jpg/09/04/72/88/360_F_904728821_ZFugpaa4Q3ALJ4peHaHGlZvZb4P99d8W.jpg" />
+          <img
+            src="https://t3.ftcdn.net/jpg/09/04/72/88/360_F_904728821_ZFugpaa4Q3ALJ4peHaHGlZvZb4P99d8W.jpg"
+            alt="Hero section background"
+          />
         </div>
         <div className="section right">
           <div className="overlay"></div>
           <a href="#video">Video</a>
-          <img src="https://t3.ftcdn.net/jpg/09/04/72/88/360_F_904728821_ZFugpaa4Q3ALJ4peHaHGlZvZb4P99d8W.jpg" />
+          <img
+            src="https://t3.ftcdn.net/jpg/09/04/72/88/360_F_904728821_ZFugpaa4Q3ALJ4peHaHGlZvZb4P99d8W.jpg"
+            alt="Hero section background"
+          />
         </div>
       </div>
 
@@ -26,11 +32,18 @@ export default function Hero() {
           left: "50%",
           transform: "translate(-50%, -50%)",
           border: "2rem solid #272727",
-          width: "25rem",
-          height: "25rem",
+          width: "26rem",
+          height: "26rem",
         }}
       />
-      <SocialLinks />
+      <SocialLinks
+        particularStyles={{
+          position: "absolute",
+          top: "2.6%",
+          left: "50%",
+          transform: "translateX(-50%)",
+        }}
+      />
 
       <NavLinks
         otherStyles={{
@@ -38,7 +51,6 @@ export default function Hero() {
           bottom: "2%",
           left: "50%",
           transform: "translateX(-50%)",
-          gap: "4rem",
           zIndex: "10",
         }}
       />

@@ -1,0 +1,33 @@
+.footer {
+  background-color: #272727;
+  width: 100vw;
+  padding: 5rem 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer > p {
+  margin: 0 auto;
+  padding: 1rem;
+  font-weight: 100;
+}
+.footer span {
+  display: block;
+}
+.footer-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 0.2rem solid #eddda4;
+  gap: 5rem;
+  padding: 0 0 2rem;
+}
+
+.policy-links {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 12rem;
+  font-weight: 300;
+}

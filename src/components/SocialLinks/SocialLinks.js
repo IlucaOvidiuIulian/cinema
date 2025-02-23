@@ -5,9 +5,9 @@ import XIcon from "../svgs/XIcon";
 import "./SocialLinks.css";
 import TikTokIcon from "../svgs/TikTokIcon";
 
-function SocialLinks() {
+function SocialLinks({ particularStyles }) {
   return (
-    <div className="social-links">
+    <div className="social-links" style={particularStyles}>
       <a href="https://facebook.com">
         <FacebookIcon className={"icon"} />
       </a>

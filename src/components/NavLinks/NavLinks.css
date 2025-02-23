@@ -1,21 +1,7 @@
 .nav-links {
   display: flex;
-  justify-content: center;
-  gap: 4rem;
+  justify-content: space-around;
+  gap: 6rem;
   z-index: 10;
   justify-self: center;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.3s ease, transform 0.3s ease;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.nav-link:hover {
-  color: #eddda4;
-  transform: scale(1.1);
 }

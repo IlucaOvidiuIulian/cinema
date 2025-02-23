@@ -10,25 +10,59 @@
   display: none;
 }
 :root {
-  --golden: #eddda4;
+  --neutral-100: #fcfcfc; /* Brightest white */
+  --neutral-200: #e9e9e9; /* Soft white */
+  --neutral-300: #d8d8d8; /* Light gray */
+  --neutral-400: #acacac; /* Muted silver */
+  --neutral-500: #a3a3a3; /* Medium gray */
+  --neutral-900: #272727; /* Dark gray */
+  --neutral-950: #070707; /* Almost black */
+  --accent-gold: #eddda4; /* Warm golden */
 }
 body,
 html {
   margin: 0;
   font-size: 62.5%;
   overflow-x: hidden;
+
   font-family: "Aileron", sans-serif;
-  /* font-family: "Arial", sans-serif; */
 }
 
 p,
 span,
 a {
-  font-size: 1.6rem;
+  font-size: 2.3rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+p,
+span {
+  color: var(--neutral-300);
+}
+span {
+  display: block;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: var(--neutral-100);
+}
+
+a:hover {
+  color: var(--accent-gold);
+  transform: scale(1.1);
 }
 
 h1 {
-  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  color: var(--accent-gold);
+  font-weight: 100;
+  font-size: 5rem;
+  margin: 4rem 0;
 }
 h2 {
   font-size: 2rem;
@@ -46,5 +80,13 @@ h6 {
   font-size: 0.67rem;
 }
 body {
-  background-color: #000;
+  background-color: var(--neutral-950);
+}
+
+.page {
+  padding: 5rem 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
