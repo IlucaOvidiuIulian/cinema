@@ -6,7 +6,7 @@ import Services from "./pages/Services/Services";
 export default function App() {
   return (
     <>
-      <Hero />;
+      <Hero />
       <Gallery />
       <Services />
     </>

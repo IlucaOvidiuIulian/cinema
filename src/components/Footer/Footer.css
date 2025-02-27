@@ -6,13 +6,8 @@
   align-items: center;
   flex-direction: column;
 }
-.footer > p {
-  margin: 0 auto;
-  padding: 1rem;
-  font-weight: 100;
-}
-.footer span {
-  display: block;
+.team-testimonial {
+  max-width: 84rem;
 }
 .footer-container {
   width: 95%;

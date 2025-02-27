@@ -5,16 +5,6 @@
   z-index: 10;
 }
 
-.icon {
-  width: 2.8rem;
-  height: 2.8rem;
-  color: var(--accent-gold);
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.social-links .icon:hover {
-  transform: scale(1.1);
-}
 .social-links > a:visited,
 .social-links > a:link {
   color: #eddda4;

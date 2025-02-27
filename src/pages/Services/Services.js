@@ -9,38 +9,30 @@ function Services() {
       <NavLinks />
       <h1>Servicii</h1>
       <p>
-        <span>
-          Oferim servicii profesionale de fotografie și videografie, surprinzănd
-          fiecare detaliu cu pasiune
-        </span>
-        <span> și creativitate.</span>
+        Oferim servicii profesionale de fotografie și videografie, surprinzănd
+        fiecare detaliu cu pasiune și creativitate.
       </p>
       <p>
-        <span>
-          De la nunți, botezuri și evenimente corporate, până la ședințe foto
-          artistice sau clipuri
-        </span>
-        <span>
-          promoționale, transformăm emoțiile și poveștile în imagini de
-          excepție.
-        </span>
+        De la nunți, botezuri și evenimente corporate, până la ședințe foto
+        artistice sau clipuri promoționale, transformăm emoțiile și poveștile în
+        imagini de excepție.
       </p>
-      <p className="service-description">
-        <span>
+      <div className="service-description">
+        <p>
           Fotografie profesională - cadre autentice, pline de viață și emoție.
-        </span>
-        <span>
+        </p>
+        <p>
           Videografie cinematică - filmări de înaltă calitate, editate cu
           atenție la detalii.
-        </span>
-        <span>
+        </p>
+        <p>
           Montaj & editare profesională - culori vibrante, sunet clar și o
           poveste captivantă.
-        </span>
-      </p>
+        </p>
+      </div>
       <p>
-        <span>Indiferent de ocazie, suntem aici să surprindem</span>
-        <span>fiecare clipă în cea mai frumoasă lumină</span>
+        Indiferent de ocazie, suntem aici să surprindem fiecare clipă în cea mai
+        frumoasă lumină
       </p>
       <button>Hai să vorbim</button>
       <Footer />

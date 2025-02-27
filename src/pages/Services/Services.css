@@ -1,17 +1,21 @@
-.servicii span {
-  color: var(--neutral-100);
-}
-.servicii p {
+.servicii p:not(.service-description p) {
   margin-bottom: 2rem;
 }
-.servicii p:nth-of-type(4) span {
+.servicii p:nth-child(7) {
   font-size: 3.5rem;
   letter-spacing: 0.5rem;
-  color: var(--neutral-300);
+  color: var(--neutral-500);
 }
-.service-description {
-  max-width: 100rem;
+.service-description p::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.service-description p {
   text-align: justify;
+  margin-bottom: 0;
+  line-height: 0.6;
 }
 
 .servicii button {

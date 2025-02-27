@@ -9,11 +9,9 @@ function Footer() {
         <Logo />
         <NavLinks />
         <div style={{ textAlign: "center", marginBottom: "6rem" }}>
-          <p>
-            <span>
-              Suntem o echipă de profesioniști pasionați,cu un spirit{" "}
-            </span>
-            <span>creativ inegalabil și o viziune fără limite.</span>
+          <p className="team-testimonial">
+            Suntem o echipă de profesioniști pasionați,cu un spirit creativ
+            inegalabil și o viziune fără limite.
           </p>
         </div>
         <div className="policy-links">
