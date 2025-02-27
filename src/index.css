@@ -68,15 +68,15 @@ body {
   background-color: var(--neutral-950);
 }
 .page {
-  padding: 5rem 3rem 0;
+  padding: 10rem 3rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 svg {
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 4rem;
+  height: 4rem;
   color: var(--accent-gold);
   transition: color 0.3s ease, transform 0.3s ease;
 }

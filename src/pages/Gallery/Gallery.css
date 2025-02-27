@@ -12,7 +12,7 @@
   gap: 15rem;
 }
 .filters p {
-  color: var(--neutral-300);
+  color: var(--neutral-500);
   font-size: 3rem;
   font-weight: 100;
 }
@@ -20,21 +20,21 @@
 .filters p:hover {
   cursor: pointer;
   color: var(--neutral-100);
-
-  transform: scale(1.2);
-  transition: transform ease 0.3s;
+  transform: scale(1.1);
+  transition: transform ease-in-out 0.3s, color ease-in-out 0.1s;
 }
 
 .sort-button {
   border-radius: 50%;
   background-color: var(--neutral-200);
-  width: 4.5rem;
-  height: 4.5rem;
   padding: 0.8rem;
   transition: all 0.3s ease;
+  display: flex;
 }
 .sort-button > svg {
   color: var(--neutral-950);
+  justify-self: center;
+  align-self: center;
 }
 .sort-button:hover {
   background-color: var(--neutral-100);

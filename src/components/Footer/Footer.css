@@ -26,3 +26,6 @@
   margin-bottom: 12rem;
   font-weight: 300;
 }
+.footer > p:last-child {
+  margin: 1.5rem 0;
+}
