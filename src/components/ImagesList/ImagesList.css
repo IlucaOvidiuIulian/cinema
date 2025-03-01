@@ -1,9 +1,9 @@
 .images-list {
   max-width: 100%;
   display: grid;
+  padding: 0 12rem;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .images-list > img {
@@ -17,7 +17,7 @@
 }
 
 .images-list > img:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
   cursor: pointer;
   filter: brightness(1);
 }

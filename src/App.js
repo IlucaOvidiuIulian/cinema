@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./pages/Hero/Hero";
 import Gallery from "./pages/Gallery/Gallery";
 import Services from "./pages/Services/Services";
+import About from "./pages/About/About";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Hero />
       <Gallery />
       <Services />
+      <About />
     </>
   );
 }

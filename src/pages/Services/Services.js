@@ -1,10 +1,11 @@
+import Button from "../../components/Button/Button";
 import Footer from "../../components/Footer/Footer";
 import Logo from "../../components/Logo/Logo";
 import NavLinks from "../../components/NavLinks/NavLinks";
 import "./Services.css";
 function Services() {
   return (
-    <div className="page servicii" style={{ gap: "4rem" }}>
+    <div className="page servicii">
       <Logo />
       <NavLinks />
       <h1>Servicii</h1>
@@ -34,7 +35,7 @@ function Services() {
         Indiferent de ocazie, suntem aici să surprindem fiecare clipă în cea mai
         frumoasă lumină
       </p>
-      <button>Hai să vorbim</button>
+      <Button>Hai să vorbim</Button>
       <Footer />
     </div>
   );
