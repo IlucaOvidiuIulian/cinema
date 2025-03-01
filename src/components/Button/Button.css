@@ -1,5 +1,6 @@
 button {
   min-width: 25rem;
+  max-width: 25rem;
   font-size: 3rem;
   padding: 0.5rem 2rem;
   background-color: var(--accent-gold);

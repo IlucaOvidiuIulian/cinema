@@ -1,7 +1,7 @@
 function YoutubeIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3 20 20">
-      <g stroke="none" stroke-width="1">
+      <g stroke="none" strokeWidth="1">
         <g transform="translate(-300.000000, -7442.000000)" fill="currentColor">
           <g transform="translate(56.000000, 160.000000)">
             <path

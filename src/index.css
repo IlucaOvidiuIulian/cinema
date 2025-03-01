@@ -3,11 +3,19 @@
 * {
   margin: 0;
   padding: 0;
+  border: none;
   box-sizing: border-box;
   user-select: none;
 }
 ::-webkit-scrollbar {
   display: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: var(--neutral-100) !important;
+  -webkit-box-shadow: 0 0 0 30px var(--neutral-900) inset !important;
 }
 :root {
   --neutral-100: #fcfcfc; /* Brightest white */
@@ -27,19 +35,22 @@ html {
   background-color: var(--neutral-950);
   font-family: "Aileron", sans-serif;
 }
-
 p,
+label,
 a {
   font-size: 2.3rem;
   letter-spacing: 0.2rem;
   line-height: 1.2;
   font-weight: 100;
 }
-
 p {
   color: var(--neutral-300);
 }
-
+label {
+  color: var(--neutral-400);
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
 a,
 a:link {
   text-decoration: none;
@@ -49,10 +60,6 @@ a:link {
 a:hover {
   color: var(--accent-gold);
   transform: scale(1.1);
-}
-a:visited,
-a:active {
-  /* color: var(--accent-gold); */
 }
 
 h1 {
@@ -89,4 +96,15 @@ svg {
 }
 svg:hover {
   transform: scale(1.1);
+}
+input,
+textarea {
+  background-color: var(--neutral-900);
+  color: var(--neutral-300);
+  font-size: 2rem;
+  padding: 1rem 0.8rem;
+  outline: none;
+  border-radius: 0.5rem;
+  min-width: 45rem;
+  resize: none;
 }

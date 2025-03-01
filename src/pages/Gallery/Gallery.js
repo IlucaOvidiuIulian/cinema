@@ -7,7 +7,7 @@ import FilmCameraIcon from "../../components/svgs/FilmCameraIcon";
 import "./Gallery.css";
 function Gallery() {
   return (
-    <div className="page" style={{ gap: "4rem" }}>
+    <div className="page">
       <Logo />
       <NavLinks />
       <h1>GALLERY</h1>
